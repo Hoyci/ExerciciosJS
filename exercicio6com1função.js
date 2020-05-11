@@ -7,7 +7,7 @@ function calcularJuros(capital, taxaJuros, tempo, tipo) {
             return montante.toFixed(2)
             break
         default:
-            return "minha rola"
+            return "TESTE"
     }
 }
 
