@@ -1,24 +1,3 @@
-// function bhaskara(a, b, c, tipo) {
-//     switch(tipo) {
-//         case "positivo": 
-//             const discriminante = b**2 - 4 * a *c
-//             const bhaskaraPos = -b + Math.sqrt(discriminante) / 2 *a
-//             const bhaskaraNeg = -b -+ Math.sqrt(discriminante) / 2 * a
-//                 return bhaskaraPos, bhaskaraNeg
-//                 break
-//         case "nulo": 
-//             const discriminante = b**2 - 4 * a *c
-//             const bhaskaraPos = -b + Math.sqrt(discriminante) / 2 *a
-//                 return bhaskaraPos
-//                 break
-//         default: 
-//             return "Esta equação não possui resultados reais"
-//     }
-
-// }
-
-
-
 function bhaskara(a, b, c) {
     if (delta = b**2 - 4 * a * c > 0) {
         console.log("Delta é positivo")
