@@ -1,5 +1,5 @@
 function bhaskara(a, b, c) {
-    if (delta = b**2 - 4 * a * c > 0) {
+    if (delta = (b**2 - 4 * a * c) > 0) {
         console.log("Delta é positivo")
         const x1 = (-b + Math.sqrt(delta)) / 2 * a
         const x2 = (-b - Math.sqrt(delta)) / 2 * a
@@ -14,6 +14,6 @@ function bhaskara(a, b, c) {
     }
 }
 
-bhaskara(1, 12, -13) // Delta positivo
+bhaskara(1, 12, -13) // Delta 
 bhaskara(4, -4, 1) // Delta nulo
 bhaskara(1, -4, 5) // Delta negativo
