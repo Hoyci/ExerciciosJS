@@ -14,6 +14,6 @@ function bhaskara(a, b, c) {
     }
 }
 
-bhaskara(1, 12, -13)
-bhaskara(4, -4, 1)
-bhaskara(1, -4, 5)
+bhaskara(1, 12, -13) // Delta positivo
+bhaskara(4, -4, 1) // Delta nulo
+bhaskara(1, -4, 5) // Delta negativo
