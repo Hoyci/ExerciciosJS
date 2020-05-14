@@ -1,7 +1,7 @@
 function sistemaDeNotas(nota) {
     const m5 = Math.ceil(nota/5) * 5
     if (nota < 38) {
-        return 'Reprova'
+        return 'Reprovado'
     } else if (m5 - nota < 3) {
         return m5
     } else {
