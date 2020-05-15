@@ -1,5 +1,5 @@
 function anoBissexto(ano){
-    const calcular = () => ano % 4 == 0 ? true : ano % 100 == 0 ? false : ano % 400 == 0
+    const calcular = () => ano % 4 == 0 &&  ano % 100 != 0 ? true : ano % 400 == 0
     console.log(calcular())
 }
 
@@ -13,4 +13,4 @@ anoBissexto(1581)
 anoBissexto(1582)
 anoBissexto(1583)
 anoBissexto(1584)
-
+anoBissexto(400)
